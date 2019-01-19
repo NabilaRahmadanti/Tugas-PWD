@@ -13,13 +13,11 @@
     <link href="<?= base_url()?>assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
     <link href="<?= base_url()?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="<?= base_url()?>assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+        
     <!-- Custom styles for this template -->
     <link href="<?= base_url()?>assets/css/style.css" rel="stylesheet">
     <link href="<?= base_url()?>assets/css/style-responsive.css" rel="stylesheet">
-
-    <script src="<?= base_url()?>assets/js/jquery.js"></script>
-
+    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -222,13 +220,13 @@
                   </li>
 
                   <li class="sub-menu">
-                      <a class="active" href="<?= base_url()?>javascript:;" >
+                      <a href="<?= base_url()?>javascript:;" >
                           <i class="fa fa-cogs"></i>
                           <span>Components</span>
                       </a>
                       <ul class="sub">
                           <li><a  href="<?= base_url()?>calendar.html">Calendar</a></li>
-                          <li class="active"><a  href="<?= base_url()?>gallery.html">Gallery</a></li>
+                          <li><a  href="<?= base_url()?>gallery.html">Gallery</a></li>
                           <li><a  href="<?= base_url()?>todo_list.html">Todo List</a></li>
                       </ul>
                   </li>
@@ -263,12 +261,12 @@
                       </ul>
                   </li>
                   <li class="sub-menu">
-                      <a href="<?= base_url()?>javascript:;" >
+                      <a class="active" href="<?= base_url()?>javascript:;" >
                           <i class=" fa fa-bar-chart-o"></i>
                           <span>Charts</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?= base_url()?>morris.html">Morris</a></li>
+                          <li class="active"><a  href="<?= base_url()?>morris.html">Morris</a></li>
                           <li><a  href="<?= base_url()?>chartjs.html">Chartjs</a></li>
                       </ul>
                   </li>
@@ -284,133 +282,67 @@
       *********************************************************************************************************************************************************** -->
       <!--main content start-->
       <section id="main-content">
-          <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Gallery</h3>
-          	<hr>
-				<div class="row mt">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
-				<div class="row mt">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port01.jpg"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port02.jpg"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port03.jpg"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
-				<div class="row mt mb">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
-		</section><! --/wrapper -->
+          <section class="wrapper">
+          <h3><i class="fa fa-angle-right"></i> Chartjs Charts</h3>
+              <!-- page start-->
+              <div class="tab-pane" id="chartjs">
+                  <div class="row mt">
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Doughnut</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="doughnut" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Line</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="line" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row mt">
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Radar</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="radar" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Polar Area</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="polarArea" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row mt">
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Bar</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="bar" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6">
+                          <div class="content-panel">
+							  <h4><i class="fa fa-angle-right"></i> Pie</h4>
+                              <div class="panel-body text-center">
+                                  <canvas id="pie" height="300" width="400"></canvas>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- page end-->
+          </section>          
       </section><!-- /MAIN CONTENT -->
 
       <!--main content end-->
@@ -418,7 +350,7 @@
       <footer class="site-footer">
           <div class="text-center">
               2014 - Alvarez.is
-              <a href="<?= base_url()?>gallery.html#" class="go-top">
+              <a href="<?= base_url()?>chartjs.html#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
           </div>
@@ -427,7 +359,7 @@
   </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
-	<script src="<?= base_url()?>assets/js/fancybox/jquery.fancybox.js"></script>    
+    <script src="<?= base_url()?>assets/js/jquery.js"></script>
     <script src="<?= base_url()?>assets/js/bootstrap.min.js"></script>
     <script class="include" type="text/javascript" src="<?= base_url()?>assets/js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="<?= base_url()?>assets/js/jquery.scrollTo.min.js"></script>
@@ -438,20 +370,14 @@
     <script src="<?= base_url()?>assets/js/common-scripts.js"></script>
 
     <!--script for this page-->
-  
-  <script type="text/javascript">
-      $(function() {
-        //    fancybox
-          jQuery(".fancybox").fancybox();
-      });
-
-  </script>
-  
+    <script src="<?= base_url()?>assets/js/chart-master/Chart.js"></script>
+    <script src="<?= base_url()?>assets/js/chartjs-conf.js"></script>
+    
   <script>
       //custom select box
 
       $(function(){
-          $("select.styled").customSelect();
+          $('select.styled').customSelect();
       });
 
   </script>

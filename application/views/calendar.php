@@ -13,13 +13,11 @@
     <link href="<?= base_url()?>assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
     <link href="<?= base_url()?>assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="<?= base_url()?>assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+    <link href="<?= base_url()?>assets/js/fullcalendar/bootstrap-fullcalendar.css" rel="stylesheet" />
+        
     <!-- Custom styles for this template -->
     <link href="<?= base_url()?>assets/css/style.css" rel="stylesheet">
     <link href="<?= base_url()?>assets/css/style-responsive.css" rel="stylesheet">
-
-    <script src="<?= base_url()?>assets/js/jquery.js"></script>
-
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -227,8 +225,8 @@
                           <span>Components</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="<?= base_url()?>calendar.html">Calendar</a></li>
-                          <li class="active"><a  href="<?= base_url()?>gallery.html">Gallery</a></li>
+                          <li class="active"><a  href="<?= base_url()?>calendar.html">Calendar</a></li>
+                          <li><a  href="<?= base_url()?>gallery.html">Gallery</a></li>
                           <li><a  href="<?= base_url()?>todo_list.html">Todo List</a></li>
                       </ul>
                   </li>
@@ -278,138 +276,43 @@
           </div>
       </aside>
       <!--sidebar end-->
-      
+
       <!-- **********************************************************************************************************************************************************
       MAIN CONTENT
       *********************************************************************************************************************************************************** -->
       <!--main content start-->
       <section id="main-content">
-          <section class="wrapper site-min-height">
-          	<h3><i class="fa fa-angle-right"></i> Gallery</h3>
-          	<hr>
-				<div class="row mt">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
-				<div class="row mt">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port01.jpg"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port02.jpg"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port03.jpg"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
-				<div class="row mt mb">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port04.jpg"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-					
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
-						<div class="project-wrapper">
-		                    <div class="project">
-		                        <div class="photo-wrapper">
-		                            <div class="photo">
-		                            	<a class="fancybox" href="<?= base_url()?>assets/img/portfolio/port06.jpg"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt=""></a>
-		                            </div>
-		                            <div class="overlay"></div>
-		                        </div>
-		                    </div>
-		                </div>
-					</div><!-- col-lg-4 -->
-				</div><!-- /row -->
-
+          <section class="wrapper">
+          	<h3><i class="fa fa-angle-right"></i> Calendar</h3>
+              <!-- page start-->
+              <div class="row mt">
+                  <aside class="col-lg-3 mt">
+                      <h4><i class="fa fa-angle-right"></i> Draggable Events</h4>
+                      <div id="external-events">
+                          <div class="external-event label label-theme">My Event 1</div>
+                          <div class="external-event label label-success">My Event 2</div>
+                          <div class="external-event label label-info">My Event 3</div>
+                          <div class="external-event label label-warning">My Event 4</div>
+                          <div class="external-event label label-danger">My Event 5</div>
+                          <div class="external-event label label-default">My Event 6</div>
+                          <div class="external-event label label-theme">My Event 7</div>
+                          <div class="external-event label label-info">My Event 8</div>
+                          <div class="external-event label label-success">My Event 9</div>
+                          <p class="drop-after">
+                              <input type="checkbox" id="drop-remove">
+                              Remove After Drop
+                          </p>
+                      </div>
+                  </aside>
+                  <aside class="col-lg-9 mt">
+                      <section class="panel">
+                          <div class="panel-body">
+                              <div id="calendar" class="has-toolbar"></div>
+                          </div>
+                      </section>
+                  </aside>
+              </div>
+              <!-- page end-->
 		</section><! --/wrapper -->
       </section><!-- /MAIN CONTENT -->
 
@@ -418,7 +321,7 @@
       <footer class="site-footer">
           <div class="text-center">
               2014 - Alvarez.is
-              <a href="<?= base_url()?>gallery.html#" class="go-top">
+              <a href="<?= base_url()?>calendar.html#" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
           </div>
@@ -427,7 +330,9 @@
   </section>
 
     <!-- js placed at the end of the document so the pages load faster -->
-	<script src="<?= base_url()?>assets/js/fancybox/jquery.fancybox.js"></script>    
+    <script src="<?= base_url()?>assets/js/jquery.js"></script>
+    <script src="<?= base_url()?>assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script src="<?= base_url()?>assets/js/fullcalendar/fullcalendar.min.js"></script>    
     <script src="<?= base_url()?>assets/js/bootstrap.min.js"></script>
     <script class="include" type="text/javascript" src="<?= base_url()?>assets/js/jquery.dcjqaccordion.2.7.js"></script>
     <script src="<?= base_url()?>assets/js/jquery.scrollTo.min.js"></script>
@@ -438,14 +343,7 @@
     <script src="<?= base_url()?>assets/js/common-scripts.js"></script>
 
     <!--script for this page-->
-  
-  <script type="text/javascript">
-      $(function() {
-        //    fancybox
-          jQuery(".fancybox").fancybox();
-      });
-
-  </script>
+	<script src="<?= base_url()?>assets/js/calendar-conf-events.js"></script>    
   
   <script>
       //custom select box
